@@ -3,7 +3,7 @@ const Favorite = require("./models/Favorite");
 
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/pag", (req, res) => {
     res.send("la página de inicio ");
 })
 app.get("/rick", async (req, res) => {
